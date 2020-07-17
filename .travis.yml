@@ -6,4 +6,4 @@ install: ./install-dependencies.sh
 script:
 - bundle exec rake build
 - bundle exec rake builddoc
-  
+  script: bundle exec rake build && bundle exec rake builddoc
