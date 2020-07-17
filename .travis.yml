@@ -3,4 +3,4 @@ rvm:
  - 2.2
  - jruby
 install: skip
-  script: bundle exec thor build
+  
